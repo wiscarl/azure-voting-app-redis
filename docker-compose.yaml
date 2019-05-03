@@ -6,6 +6,7 @@ services:
     ports:
         - "6379:6379"
 
+
   azure-vote-front:
     build: ./azure-vote
     image: azure-vote-front
